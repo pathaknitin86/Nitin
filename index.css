@@ -1,0 +1,736 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    overflow-x: hidden;
+    position:sticky;
+    top: 0px;
+    display: flex;
+    background-image: url('./image/Navbar\ Background.jpg');
+    margin-top: 0px;
+    border-bottom: 1px solid green;
+    margin-bottom: 20px;
+   
+}
+ul li{
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+img{
+    width: 80px;
+    margin-right: 150px;
+    margin-top: -5px;
+    shape-margin: 10px;
+
+}
+.download{
+    margin-left: 340px;
+    margin-top: 5px;
+}
+.download a{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+.download a:hover{
+    font-family: calibri;
+    background-color: blue;
+    color: aliceblue;
+}
+
+
+/*introduction*/
+
+
+
+.intro{
+    overflow-x: hidden;
+    display: flex;
+    background-image: url('./image/Navbar\ Background.jpg');
+    justify-content: center;
+    margin-top: -20px;
+    
+}
+.div2 img{
+    width: 460px;
+    margin-right: 60px;
+    margin-top: 30px;
+    position: relative;
+    left: 50px;
+}
+.div1{
+    margin: 100px 140px 0px 130px;
+
+}
+h1{
+    font-size: 50px;
+}
+.say{
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    margin-top: 10px;
+}
+.mywork{
+    margin-left: 100px;
+}
+@media(max-width:415px){
+    .intro{
+        display: block;
+        background-image: url('./image/Navbar\ Background.jpg');
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: -80px;
+    }
+    .div2 img{
+        width: 300px;
+        margin-right: 10px;
+        margin-top: 30px;
+        position: relative;
+        top: -200px;
+        left: 50px;
+    }
+    .div1 h1{
+        margin-left: -100px;
+    }
+    .div1 h2{
+        margin-left: -100px;
+    }
+    .div1 h4{
+        margin-left: -100px;
+    }
+    .div2{
+        padding-left: 150px;
+        margin-top: -270px;
+    }
+    .say{
+        margin-left: -100px;
+    }
+    .mywork{
+        margin-left: 15px;
+    }
+    
+}
+
+/*------ My Clients--0----*/
+
+.myclient{
+    overflow-x: hidden;
+    background-color: rgb(4, 4, 48);
+}
+
+.myclient div{
+    display: block;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    padding: 30px 0px 30px 40px;
+    top: 50%;
+}
+.myclient div span img{
+    width: 200px;
+    margin: 0px 40px 0px 40px;
+}
+@media(max-width:415px){
+   
+    .client{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*========  Dedication  ========*/
+
+.dedication{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.dedication div{
+    position: relative;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-left: 0.5px solid black;
+}
+.dedication div img{
+    width: 80px;
+    height: 50px;
+    margin-bottom: -10px;
+}
+.dedication div span{
+    font-size: 25px;
+}
+@media(max-width:415px){
+    .dedication{
+        overflow-x: hidden;
+        display: block;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding: 50px;
+    }
+    
+}
+
+/* = = ===== My Skills ======*/
+
+.mainskill{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+.mainskill div{
+    margin: 40px;
+    font-size: 20px;
+    color: goldenrod;
+}
+.ulup{
+    background-image: url('https://itemsstore.net/html/trito/img/skills/1.jpg')
+}
+.ulskill{
+    display: flex;
+}
+.ulskill li{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    margin: 30px;
+}
+@media(max-width:415px){
+    .mainskill{
+        display: block;
+        justify-content: center;
+    }
+    .ulup{
+        width: 100%;
+        background-image: url('https://itemsstore.net/html/trito/img/skills/1.jpg')
+    }
+    .ulskill li{
+        background-color: white;
+        border: 1px solid black;
+        padding: 5px;
+        font-size: 10px;
+        margin: 15px;
+    }
+    
+}
+    
+
+/*====== Count ======*/
+
+.count{
+    overflow-x: hidden;
+    display:flex;
+}
+.count div{
+    margin: 20px;
+    padding: 50px;
+}
+.count div u{
+    margin: 30px;
+}
+.count div span{
+    padding: 0px 0px 0px 0px;
+}
+@media(max-width:415px){
+    .count{
+    
+        display:block;
+    } 
+}
+/* ========= About Me =========*/
+.year{
+    width: 300px;
+    height: 100px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 600px;
+    left: 100px;
+    background-color:whitesmoke;
+    
+}
+.year1{
+    color: brown;
+    font-size: 70px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+.year2{
+    color: blue;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.about{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px 50px 100px;
+}
+.about div{
+    margin: 0px 50px 0px 50px;
+}
+.about div p{
+    font-size: 20px;
+}
+.about div h1{
+    font-size: 40px;
+}
+.about img{
+    width: 500px;
+}
+
+/*=========== Templete ==========*/
+
+.maindiv{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+.maindiv img:hover{
+    transform: scale(1);
+    overflow: hidden;
+}
+.maindiv img{
+    width: 500px;
+    padding: 50px;
+    overflow: hidden;
+}
+@media(max-width:415px){
+    .maindiv{
+        overflow-x: hidden;
+        display: block;
+        justify-content: center;
+        border: 1px solid black;
+    }
+}
+/*============Five Images ============*/
+
+.images2{
+    overflow-x: hidden;
+}
+
+.five{
+    display: flex;
+}
+.five div{
+    border: 2px solid black;
+    width: 49%;
+    overflow: hidden;
+    margin: 10px;
+}
+.five img{
+    width: 100%;
+}
+.five div img:hover{
+    scale: 1.2;
+    transition: scale 2s ease-out;
+}
+
+.images3{
+    overflow-x: hidden;
+}
+.five1{
+    display: flex;
+}
+.five1 div{
+    border: 2px solid black;
+    width: 49%;
+    overflow: hidden;
+    margin: 10px;
+}
+.five1 img{
+    width: 100%;
+}
+.five1 div img:hover{
+    scale: 1.2;
+    transition: scale 2s ease-out;
+}
+@media(max-width:415px){
+    .five{
+        display: block;
+        margin-left: 100px;
+    }
+    .five1{
+        display: block;
+        margin-left: 100px;
+    }
+}
+
+/*============= FAQ ============*/
+
+.faq1{
+    width: 700px;
+    background-color: brown;
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+
+#faq{
+    overflow-x: hidden;
+}
+.faq1 span{
+    background-color: aqua;
+    font-weight: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+}
+.faq1a{
+    width: 700px;
+    background-color: brown;
+    padding: 40px;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    z-index: -4;
+    margin-top: -100px;
+}
+
+#check1:checked~.faq1a{
+    margin-top: 10px;
+    transition: margin-top 1s ease-out;
+    
+}
+
+.faq2{
+    width: 700px;
+    background-color:blue;
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+.faq2 span{
+    background-color: aqua;
+    font-weight: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.faq2b{
+    width: 700px;
+    background-color:blue;
+    padding: 40px;
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+    display: none;
+}
+
+#check2:checked~.faq2b{
+    display: block;
+    
+}
+
+.faq3{
+    width: 700px;
+    background-color: brown;
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+.faq3 span{
+    background-color: aqua;
+    font-weight: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.faq3c{
+    width: 700px;
+    background-color: brown;
+    padding: 40px;
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+    display: none;
+}
+
+#check3:checked~.faq3c{
+    display: block;
+    
+}
+@media(max-width:415px){
+    .faq{
+        
+    }
+}
+
+
+/* -------My Blog--------*/
+.myblog{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+.myblog div{
+    border: 2px solid black;
+    width: 60%;
+    overflow: hidden;
+    margin: 30px;
+    border-radius: 50%;
+}
+    .border{
+        border-bottom: 1px solid rgb(146, 146, 142);
+    }
+.myblog div img{
+    width: 300px;
+    height: 200px;
+    border-radius: 100px;
+}
+.myblog div img:hover{
+        scale: 1.2;
+        transition: scale 1s ease-out;
+}
+
+/*
+.myblog {
+display: flex;
+overflow-x: hidden;
+
+}
+.myblog div{
+    border: 2px solid black;
+    width: 60%;
+    overflow: hidden;
+    margin: 30px;
+    border-radius: 50%;
+}
+.myblog div img:hover{
+    scale: 1.2;
+    transition: scale 2s ease-out;
+}
+.myblog img{
+    width: 100%;
+}*/
+@media(max-width:415px){
+    .myblog {
+        display: block;
+        overflow-x: hidden;
+        
+        }
+}
+
+/* ========= contact =========*/
+
+
+.contact{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    background-image: url('https://itemsstore.net/html/trito/img/contact/background.jpg');
+    padding: 1px;
+
+}
+
+.contact1{
+    margin: 100px;
+    font-size: 20px;
+    color: red; 
+}
+.contact2 {
+    font-size: 50px;
+    font-family: Calibri (Body);
+    font-weight: 550;
+    color: white;
+    padding-right: 10px;
+}
+.contact3{
+    font-size: 20px;
+    color: rgba(255,255,255,.5);
+}
+.contact3 div a{
+    font-size: 30px;
+    color: #fff;
+}
+.contact3 div a{
+    color: #fff;
+    cursor: pointer;
+}
+.contact3 div a:hover{
+    text-decoration: none;
+}
+.contact4{
+    background-color:rgba(255,255,255,.1);
+    color: white;
+    width: 120%;
+    padding: 30px 40px 35px 60px
+}
+
+.contact5{
+    margin: 100px;
+    background-color: white;
+    padding: 50px;
+    width: 450px;
+}
+
+.contact5 div input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 200px;
+    height: auto;
+}
+.contact5 div input::placeholder{
+    font-size: 20px;
+    color: #505a7e;;
+
+}
+.contact5 div{
+    padding: 20px 200px 20px 60px;
+    margin: 20px;
+    border: 2px solid #24315e;
+}
+
+.button{
+    background-color: #06d8a7;
+    border: 2px solid #24315e;
+    padding: 20px 130px 20px 130px; 
+    margin-left: 3px;
+    margin-right: 3px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif
+  
+}
+
+.contact5 div i{
+    font-size: 30px;
+    border-radius: 50%;
+    background-color:blue;
+    padding:10px;
+}
+.button:hover{
+    background-color:#24315e;
+    color: white;
+}
+@media(max-width:415px){
+    .contact{
+      
+        display: block;
+        justify-content: center;
+    }
+    .contact1{
+        margin: 90px;
+        font-size: 12px;
+        color: red; 
+        margin-left: 20px;
+    }
+    .contact5{
+        margin: 10px;
+        background-color: white;
+        padding: 5px;
+        width: 400px;
+    }
+    .button{
+        background-color: #06d8a7;
+        border: 2px solid #24315e;
+        padding: 20px 120px 20px 120px; 
+        margin-left: 3px;
+        margin-right: 3px;
+        font-weight: 500;
+        font-size: 15px;
+        font-family:Arial, Helvetica, sans-serif
+    }
+    .contact5 div input{
+        outline: none;
+        border: none;
+        background-color: transparent;
+        width: 50px;
+        height: auto;
+    }
+    .contact5 div i{
+        font-size: 30px;
+        border-radius: 50%;
+        background-color:blue;
+        padding:5px;
+        margin-right: 20px;
+    }
+    .contact5 div input::placeholder{
+        font-size: 20px;
+        color: #505a7e;;
+    
+    }
+    .contact5 div{
+        padding: 20px 100px 20px 60px;
+        margin: 20px;
+        border: 2px solid #24315e;
+    }
+}
+    
+
+ 
+.togglelabel{
+    overflow-x: hidden;
+    display: none;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+}
+.togglelabel i{
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.img1{
+    width: 80px;
+    display: none;
+    margin: 20px;
+}
+@media(max-width:415px){
+    .navbar{
+        display: none;
+        overflow-x: hidden;
+    }
+    .img1{
+        display: block;
+    }
+    .togglelabel{
+       
+        display: block;
+    }
+    .navbar li img{
+        display: none;
+    }
+    #toggle:checked~.navbar{
+        display: block;
+        position: absolute;
+        background-color: white;
+        z-index: 100;
+        top: 50px;
+        width: 100%;
+    }
+    .download{
+        margin-left: 2px;
+        margin-top: 5px;
+    }
+    .download a{
+        border: 1px solid black;
+        padding: 10px;
+        background-color: white;
+    }
+    .download a:hover{
+        font-family: calibri;
+        background-color: blue;
+        color: aliceblue;
+    }
+}
