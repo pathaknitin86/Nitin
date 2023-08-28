@@ -278,18 +278,29 @@ h1{
     justify-content: center;
     padding: 50px 100px 50px 100px;
 }
+.about div span{
+    font-size: 20px;
+
+}
+
 .about div{
-    margin: 0px 50px 0px 50px;
+    margin-left: 30px;
 }
 .about div p{
-    font-size: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 .about div h1{
-    font-size: 30px;
+    font-size: 40px;
 }
 .about img{
-    width: 500px;
+    width: 400px;
 }
+.about div a{
+    margin-top: 10px;
+}
+
 @media (max-width:415px){
   
     .year{
@@ -657,11 +668,10 @@ h1{
     font-size: 17px;
 }
 .myblog div{
-    border: 2px solid black;
-    width: 60%;
+    width: 49%;
     overflow: hidden;
-    margin: 30px;
-    border-radius: 50%;
+    margin-left: 40px;
+   
 }
     .border{
         border-bottom: 1px solid rgb(146, 146, 142);
@@ -669,7 +679,8 @@ h1{
 .myblog div img{
     width: 300px;
     height: 200px;
-    border-radius: 100px;
+    border-radius: 49%;
+   
 }
 .myblog div img:hover{
         scale: 1.2;
